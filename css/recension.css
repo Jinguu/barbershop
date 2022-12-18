@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(235, 232, 222);
+}
+
+.wrapper {
+    padding-top: 40px;
+    background-color: rgb(235, 232, 222);
+    margin-top: 20%;
+}
+
+.wrapper h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: rgb(191, 146, 91)
+}
+
+.wrapper h2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.testimonial {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.testimonial .person {
+    background-color: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.testimonial .person h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.testimonial .person p.customer {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgb(191, 146, 91);
+    margin-bottom: 0;
+}
+
+.testimonial .person .icon {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 12px;
+}
+
+.testimonial .person:nth-child(1) .icon {
+    background-image: url("../img/person1.jpg");
+}
+
+.testimonial .person:nth-child(2) .icon {
+    background-image: url("../img/person2.jpg");
+}
+
+.testimonial .person:nth-child(3) .icon {
+    background-image: url("../img/person3.jpg");
+}
+
+.testimonial .person .text-container {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.testimonial .person .icon-text-container {
+    margin-top: 12px;
+}
+
+.testimonial .person .stars {
+    background-image: url(stars.png);
+    height: 10px;
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.quotation-icon {
+    background-image: url("../img/quotation.jpg");
+    background-color: rgb(191, 146, 91);
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 40px;
+    background-size: 10px;
+    position: absolute;
+    top: -16px;
+    left: 20px;
+}
